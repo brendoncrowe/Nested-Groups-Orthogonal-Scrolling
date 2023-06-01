@@ -14,6 +14,7 @@
 		40729C7C2A29210300204921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40729C7B2A29210300204921 /* Assets.xcassets */; };
 		40729C7F2A29210300204921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40729C7D2A29210300204921 /* LaunchScreen.storyboard */; };
 		40729C872A29212800204921 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40729C862A29212800204921 /* LabelCell.swift */; };
+		40729C892A2934F200204921 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40729C882A2934F200204921 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40729C7E2A29210300204921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40729C802A29210300204921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40729C862A29212800204921 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		40729C882A2934F200204921 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				40729C722A29210200204921 /* AppDelegate.swift */,
 				40729C742A29210200204921 /* SceneDelegate.swift */,
 				40729C762A29210200204921 /* ViewController.swift */,
+				40729C882A2934F200204921 /* HeaderView.swift */,
 				40729C862A29212800204921 /* LabelCell.swift */,
 				40729C782A29210200204921 /* Main.storyboard */,
 				40729C7B2A29210300204921 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40729C772A29210200204921 /* ViewController.swift in Sources */,
+				40729C892A2934F200204921 /* HeaderView.swift in Sources */,
 				40729C732A29210200204921 /* AppDelegate.swift in Sources */,
 				40729C872A29212800204921 /* LabelCell.swift in Sources */,
 				40729C752A29210200204921 /* SceneDelegate.swift in Sources */,
@@ -293,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NJ8L7C6778;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nested-Groups-Othogonal-Scrolling/Info.plist";
+				INFOPLIST_FILE = "Nested-Groups-Orthogonal-Scrolling/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NJ8L7C6778;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nested-Groups-Othogonal-Scrolling/Info.plist";
+				INFOPLIST_FILE = "Nested-Groups-Orthogonal-Scrolling/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
